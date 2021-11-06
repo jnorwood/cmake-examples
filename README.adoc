@@ -60,7 +60,7 @@ Some specific examples may require other tools including:
 
 * http://clang.llvm.org/[clang]
 
-  $ sudo apt-get install clang-3.6
+  $ sudo apt-get install clang
   $ sudo apt install clang
   $ sudo apt install clang-tools
   $ sudo apt install clang-format

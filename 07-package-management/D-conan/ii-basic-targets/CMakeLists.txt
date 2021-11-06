@@ -13,5 +13,5 @@ add_executable(third_party_include main.cpp)
 # link against the fmt target supplied by conan
 target_link_libraries(third_party_include
     PRIVATE
-        CONAN_PKG::fmt
+        CONAN_PKG::libpng
 )

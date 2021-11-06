@@ -1,8 +1,8 @@
 #include <iostream>
-#include <fmt/format.h>
+#include <png.h>
 
 int main(int argc, char *argv[])
 {
-    fmt::print("Hello, {}. This is {}!\n", "conan", "fmtlib");
+    printf("Hello, {%s}. This is {%s}!\n", "conan", "libpng");
     return 0;
 }
